@@ -3,6 +3,15 @@
 A standalone VR tennis practice prototype for Meta Quest. Hit balls from an
 adjustable ball machine on a club, mountain, forest, or New York rooftop court.
 
+## Gameplay Video
+
+**[Download the gameplay demo (MP4, 1080p)](https://github.com/aleksmilivojevic/quest-tennis/releases/download/gameplay-demo-2026-10-22/tennis-gameplay-demo-edited.mp4)**
+
+A 66-second Quest gameplay video with an original bass-driven soundtrack.
+Recorded October 22, 2026, on a newer development build; the APK linked below
+has not been updated to match this footage.
+[Video details](https://github.com/aleksmilivojevic/quest-tennis/releases/tag/gameplay-demo-2026-10-22).
+
 ## Download And Play
 
 **[Download the APK](https://github.com/aleksmilivojevic/quest-tennis/releases/download/v0.1.0-preview.1/quest-tennis.apk)**
