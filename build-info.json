@@ -1,9 +1,10 @@
 {
-  "release": "v0.1.0-preview.1",
-  "release_prepared": "2026-10-16",
+  "release": "v0.1.0-preview.2",
+  "release_prepared": "2026-10-22",
+  "build_verified_at": "2026-10-22T08:43:14.665Z",
   "apk": "quest-tennis.apk",
-  "sha256": "3b64d647c46351e18a5a9a45b81a811ee40e0ac9ed4ce67bacc4ca24bc3e7569",
-  "size_bytes": 89829115,
+  "sha256": "90963b260192dbdf57aac9a22ea1da0cf27accc42a9b5aff43599cdbcaba3596",
+  "size_bytes": 89833339,
   "application_label": "Quest VR Game",
   "package": "com.aleksandarmilivojevic.questvrgame",
   "version_name": "0.1.0",
@@ -16,11 +17,21 @@
   "signature_scheme": "v2",
   "debug_build": true,
   "signer_certificate_sha256": "0ffc939fc241c00d58bc84d84dc254b1caffc4de7381dd6b17dd2caca4c0af05",
-  "checked_source_sha256": "f1181b7cafe3c0edb4f1b32f8dac28bd8f11e035eedf0b16f305ac5aaeef8b4d",
+  "checked_source_sha256": "536375b4ef8a3d6ed422d6461e55d03dafb01d9f4bc20d003828623b4eb12c3a",
+  "local_checks_passed": {
+    "checked_at": "2026-10-22T08:41:47.503Z",
+    "tennis_assertions": 38996,
+    "environment_assertions": 1762,
+    "synthetic_xr_assertions": 707,
+    "additional_checks": ["device-tools", "shader-contracts", "harness-feedback-compatibility", "import", "scene-and-bindings"]
+  },
   "apk_modified_since_verified_export": false,
   "development_headset": "Quest 2",
   "headset_installation": "passed",
   "latest_headset_startup": "blocked_by_controllers_required_dialog",
+  "subsequent_gameplay_evidence": "user_provided_quest_recording_2026-10-22",
+  "menu_visibility_rendered_preview": "deferred_by_user",
+  "recenter_and_physical_swing_acceptance": "pending",
   "night_shimmer_hardware_acceptance": "pending",
   "other_headset_models": "not_validated"
 }

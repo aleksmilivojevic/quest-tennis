@@ -17,7 +17,7 @@ computer you trust. A file-access prompt is not the USB-debugging prompt.
 ## 2. Download
 
 Get **quest-tennis.apk** from the
-[preview release](https://github.com/aleksmilivojevic/quest-tennis/releases/tag/v0.1.0-preview.1).
+[current preview release](https://github.com/aleksmilivojevic/quest-tennis/releases/tag/v0.1.0-preview.2).
 Alternatively, extract **quest-tennis-sideload.zip**; the APK is inside.
 Do not use GitHub's "Source code (zip)" download as the game installer.
 
@@ -62,6 +62,11 @@ There is no need to uninstall first. A different signing key can cause
 `INSTALL_FAILED_UPDATE_INCOMPATIBLE`; do not uninstall casually, because that
 deletes saved settings. Ask the maintainer which build you have before proceeding.
 
+The October 22 update (`v0.1.0-preview.2`) uses the same package and certificate as
+the first preview. Android still displays version `0.1.0` / code `1`; use the
+GitHub release tag and APK checksum to distinguish these builds. An in-place
+reinstall replaces the old APK even though its Android version number is unchanged.
+
 ## 4. Open And Play
 
 Wake the headset and both controllers. In the headset's app library, select
@@ -74,6 +79,12 @@ Stand safely behind the virtual baseline, then swing the racket at incoming
 balls. Point at the front-left panel for machine settings, front-right for court
 and lighting, or turn around for racket angle calibration. Trigger clicks operate
 the buttons. Feeds pause when the headset loses focus or the racket is untracked.
+
+Use the Quest system recenter action or the front-left **Recenter player** button
+to return the tracked rig to the authored baseline facing the court. Recenter
+clears active balls and restarts the feed countdown without resetting settings.
+The rear racket panel also has independent **Hide/Show** buttons for the ball
+machine and court-selection menus; it stays visible so you can restore them.
 
 ## Troubleshooting
 
